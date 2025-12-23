@@ -1,7 +1,7 @@
 local PlayerService = game:GetService("Players")
 local LocalPlayerInstance = PlayerService.LocalPlayer
 local MainScreenGui = Instance.new("ScreenGui")
-MainScreenGui.Name = "RemoteSpyV5"
+MainScreenGui.Name = "RemoteSpyV6"
 MainScreenGui.Parent = game.CoreGui
 local OrangeColor = Color3.fromRGB(255, 140, 0)
 local DarkGrayColor = Color3.fromRGB(20, 20, 20)
@@ -34,7 +34,7 @@ local TitleLabel = Instance.new("TextLabel")
 TitleLabel.Size = UDim2.new(1, - 160, 1, 0)
 TitleLabel.Position = UDim2.new(0, 0, 0, 0)
 TitleLabel.BackgroundTransparency = 1
-TitleLabel.Text = "RemoteSpy v5"
+TitleLabel.Text = "RemoteSpy v6"
 TitleLabel.TextColor3 = WhiteColor
 TitleLabel.Font = Enum.Font.GothamBlack
 TitleLabel.TextSize = 40
@@ -255,7 +255,7 @@ EmptyTable.Help.MouseButton1Click:Connect(function()
     InfoLabel.Text = "Click \'Fire\' to trigger a remote, \'Copy\' to copy its path, \'Export\' to copy all paths."
 end)
 EmptyTable.About.MouseButton1Click:Connect(function()
-    InfoLabel.Text = "RemoteSpy v5 | Orange/Black Theme | 2025 | @31hw on discord"
+    InfoLabel.Text = "RemoteSpy v6 | Orange/Black Theme | 2025 | @31hw on discord"
 end)
 local SettingsFrame = Instance.new("Frame")
 SettingsFrame.Size = UDim2.new(0, 350, 0, 300)
